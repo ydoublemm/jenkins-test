@@ -18,6 +18,6 @@ public class HelloController {
 		System.out.println("123");
 		System.out.println("1");
 		System.out.println("2");
-		return "jenkins测试123123";
+		return "jenkins测试";
 	}
 }
