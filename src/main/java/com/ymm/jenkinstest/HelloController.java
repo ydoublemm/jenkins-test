@@ -1,5 +1,6 @@
 package com.ymm.jenkinstest;
 
+import org.springframework.aop.scope.ScopedProxyUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,6 +16,7 @@ public class HelloController {
 	@RequestMapping("/")
 	public String hello(){
 		System.out.println("123");
+		System.out.println("1");
 		return "jenkins测试123123";
 	}
 }
