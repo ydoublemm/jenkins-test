@@ -15,6 +15,6 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String hello(){
-		return "jenkins测试";
+		return "jenkins测试制造冲突";
 	}
 }
